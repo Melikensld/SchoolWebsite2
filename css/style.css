@@ -1,0 +1,273 @@
+body {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.wrapper {
+  display: flex;
+}
+
+#sidebar {
+  width: 23%;
+  height: auto;
+  color: #fff;
+  background: rgb(135, 12, 12);
+  transition: all 0.3s;
+}
+
+
+#sidebar .sidebar-header {
+  padding: 20px;
+  background: rgb(135, 12, 12);
+}
+
+#sidebar ul.components {
+  padding: 20px 0;
+}
+
+#sidebar ul p {
+  padding: 10px;
+}
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 120%;
+  display: block;
+}
+
+#sidebar ul li a:hover {
+  color: #fff !important;
+  background: black;
+  transition: .3s all ease;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown a{
+  text-decoration: none;
+  color: white;
+}
+
+.dropdown {
+  transition: all 0.5s ease-out;
+}
+
+
+ul ul a {
+  font-size: 0.9em !important;
+  padding-left: 30px !important;
+  background: rgb(135, 12, 12);
+}
+
+#content {
+  width: 100%;
+  padding: 1%;
+}
+
+@media (max-width:100%) {
+  #sidebarCollapse span {
+    display: none;
+  }
+}
+
+.content h1 {
+  text-decoration: underline;
+  color: white;
+}
+
+.content ul li {
+  color: white;
+  font-size: 120%;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 15px;
+  border-style: inset;
+}
+
+.content {
+  width: 1auto;
+  height: auto;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+section {
+  background-color: rgb(135, 12, 12);
+  height: 100%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  float: left;
+  border-radius: 10px;
+  margin: 10px;
+  margin-bottom: 25px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transition: transform .2s;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
+
+.universitycontent {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 15px;
+}
+
+.universitycontent h2 {
+  text-decoration: underline;
+}
+
+.universitycontent ul li {
+  color: white;
+  width: 400px;
+  height: 35px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 15px;
+  border-style: inset;
+}
+
+.universityimage {
+  width: 90%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-radius: 10px;
+  margin-right: 5px;
+  transition: opacity 0.8s;
+}
+
+.universityimage:hover {
+  opacity: 0.6;
+}
+
+table,
+th,
+td {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(20, 19, 19);
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.documentscontent {
+  font-weight: 550;
+}
+
+.documentscontent div {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin-top: 20px;
+}
+
+.documentscontent p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  border-style: inset;
+
+}
+
+.documentscontent li {
+  list-style-type: none;
+}
+
+.documentscontent li a {
+  height: 15px;
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+  display: block;
+  border-bottom: px;
+  margin-top: 15px;
+}
+
+.researchimage {
+  width: 85%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-radius: 10px;
+  margin-left: 40px;
+  margin-top: 25px;
+  margin-right: 5px;
+  margin-bottom: 25px;
+  border-style: double;
+  border-width: 4px;
+  transition: transform .2s;
+}
+
+.researchimage:hover {
+  transform: scale(1.1);
+}
+
+.login {
+  background-color: rgb(189, 206, 228);
+}
+
+.login-form {
+  width: 340px;
+  margin: 50px auto;
+  font-size: 15px;
+}
+
+.login-form form {
+  margin-bottom: 15px;
+  background: #f7f7f7;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+
+.login-form h2 {
+  margin: 0 0 15px;
+}
+
+.form-control,
+.btn {
+  min-height: 38px;
+  border-radius: 2px;
+}
+
+.btn {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.studentscontent {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 15px;
+}
+
+.studentscontent h3 {
+  border-style: inset;
+  color: rgb(135, 12, 12);
+  background-color: white;
+}
+
+.studentscontent h1 {
+  text-decoration: underline;
+  text-align: center;
+
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+
+}
